@@ -1,0 +1,45 @@
+@font-face {
+  font-family: SF UI TextSemibold;
+  src: url(Fonts/SFUIText-Semibold.ttf);
+}
+
+@font-face {
+  font-family: SF UI TextRegular;
+  src: url(Fonts/SFUIText-Regular.ttf);
+}
+
+@font-face {
+  font-family: Silk-Serif-Light-Italic;
+  src: url(Fonts/SilkSerif-LightItalic.ttf);
+}
+
+h1 {
+  font-family: 'SFUIText-Regular', sans-serif;
+  font-weight: 100;
+  font-size: 32pt;
+  letter-spacing: -1px;
+  line-height: 10px;
+}
+
+#serif {
+  font-family: 'SilkSerif-LightItalic', sans-serif;
+  font-weight: 100;
+  font-size: 32pt;
+}
+
+a {
+  font-family: 'SFUIText-Semibold', sans-serif;
+  font-size: 16pt;
+  font-weight: 100;
+  color:black; 
+  text-decoration: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
